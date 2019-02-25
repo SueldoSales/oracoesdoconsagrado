@@ -24,3 +24,15 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+#initButton {
+  height: 50px;
+  min-width: 150px;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+#initLink {
+  text-align: center;
+  margin-top: 45%;
+}
