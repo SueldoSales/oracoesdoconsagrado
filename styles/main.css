@@ -36,3 +36,26 @@ html, body {
   text-align: center;
   margin-top: 45%;
 }
+
+.titulo-oracao {
+  text-align: center;
+}
+
+.texto-oracao {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+#nextButton {
+  height: 50px;
+  min-width: 150px;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+#nextLink {
+  text-align: center;
+  margin-top: 45%;
+}
