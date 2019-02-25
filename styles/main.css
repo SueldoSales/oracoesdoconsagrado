@@ -25,6 +25,14 @@ html, body {
   padding: 0;
 }
 
+.mdl-layout__header {
+  background-color: #029eb7;
+}
+
+.mdl-button--raised.mdl-button--colored {
+  background-color: #029eb7;
+}
+
 #initButton {
   height: 50px;
   min-width: 150px;
