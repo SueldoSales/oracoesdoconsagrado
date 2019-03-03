@@ -1,4 +1,6 @@
 # oracoesdoconsagrado
 
 ToDo:
-- Colocar o brasão mariano como ícone
+- Melhorar qualidade do icone de entrada
+- Alterar cor da barra superior geral
+- Alterar cor do background de entrada
