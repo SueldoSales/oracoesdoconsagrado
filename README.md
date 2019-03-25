@@ -1,6 +1,6 @@
 # oracoesdoconsagrado
 
-Servidor de teste: https://focused-archimedes-bf37fe.netlify.com/index.html
+https://oracoesdoconsagrado.netlify.com/
 
 ToDo:
 - Melhorar qualidade do icone de entrada
