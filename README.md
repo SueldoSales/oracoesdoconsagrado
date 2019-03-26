@@ -8,3 +8,4 @@ ToDo:
 - Alterar cor da barra superior geral
 - Alterar cor do background de entrada
 - Testar Offline
+- Alterar para o bulma
