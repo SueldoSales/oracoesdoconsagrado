@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oração a Jesus Vivendo em Maria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orações do Consagrado</title>
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
@@ -31,53 +31,53 @@
     <!-- Color the status bar on mobile devices -->
     <meta name="theme-color" content="#2F3BA2">
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
-
-    <!-- Material Design icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-
-    <!-- Material Design Lite page styles:
-    You can choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html
-    Format: material.color1-color2.min.css, some examples:
-    material.red-teal.min.css
-    material.blue-orange.min.css
-    material.purple-indigo.min.css
-    -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-
-    <!-- Your styles -->
-    <link rel="stylesheet" href="../styles/main.css">
   </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">Orações do Consagrado</span>
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-        </div>
-      </header>
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Consagrado</span>
-        <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="../index.html">Home</a>
-            <a class="mdl-navigation__link" href="./Magnificat.html">Magnificat</a>
-            <a class="mdl-navigation__link" href="./Coroinha.html">Coroinha</a>
-            <a class="mdl-navigation__link" href="./Subtuum.html">Sub Tuum</a>
-            <a class="mdl-navigation__link" href="./OracaoaJesus.html">Oração a Jesus Vivendo em Maria</a>
-        </nav>
+  <body>
+    <!-- Add your site or app content here -->
+    <nav class="navbar container is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+          <a class="navbar-item is-size-5 has-text-weight-semibold" href="index.html">
+              Consagrado
+          </a>
+
+          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+          </a>
       </div>
-      <main class="mdl-layout__content">
-        <div class="page-content">
-            <h3 class="titulo-oracao">Oração a Jesus Vivendo em Maria</h3>
-            <div>
-              <p class="texto-oracao">
-                Ó Jesus que viveis em Maria,<br />
+      <div class="navbar-menu" id="navMenu">
+          <a class="navbar-item" href="magnificat.html">
+            Magnificat
+          </a>
+          <a class="navbar-item" href="coroinha.html">
+            Coroinha
+          </a>
+          <a class="navbar-item" href="subtuum.html">
+            Sub Tuum
+          </a>
+          <a class="navbar-item" href="oracaoajesus.html">
+            Oração a Jesus
+          </a>
+      </div>
+    </nav>
+
+    <section class="section main">
+      <div class="container">
+        <p class="title has-text-centered">
+          Oração a Jesus Vivendo em Maria      
+        </p>
+        <div class="box">
+          <p class="texto-oracao has-text-centered">Ó Jesus que viveis em Maria,<br />
                 vinde e vivei em vossos servos,<br />
                 no espírito de vossa santidade,<br />
                 na plenitude de vossa força,<br />
@@ -86,23 +86,13 @@
                 na comunhão de vossos mistérios;<br />
                 dominai sobre toda a potestade inimiga,<br />
                 em vosso espírito para a glória do Pai.<br />
-                Amém.
-              </p>
-            </div>
-            <div id="nextLink">
-              <a href="../index.html">
-                <button id="nextButton" class="mdl-button mdl-js-button mdl-button--colored mdl-button--raised mdl-js-ripple-effect">
-                  Finalizar
-                </button>
-              </a>
-            </div>
+                Amém.</p>
         </div>
-      </main>
-    </div>
-
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+      </div>
+    </section>
     <!-- build:js scripts/main.min.js -->
-    <script src="../scripts/main.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

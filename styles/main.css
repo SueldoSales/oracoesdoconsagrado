@@ -19,51 +19,10 @@ Note: any .css or .scss files included in the 'styles' directory
 will be correctly compiled during `gulp serve` and `gulp`
  */
 
-html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.mdl-layout__header {
-  background-color: #029eb7;
-}
-
-.mdl-button--raised.mdl-button--colored {
-  background-color: #029eb7;
-}
-
-#initButton {
-  height: 50px;
-  min-width: 150px;
-  font-size: 18px;
-  border-radius: 25px;
-}
-
-#initLink {
-  text-align: center;
-  margin-top: 45%;
-}
-
-.titulo-oracao {
-  text-align: center;
+.main {
+  margin-top: 50px;
 }
 
 .texto-oracao {
-  text-align: center;
   font-size: 18px;
-  margin: 20px;
-  line-height: 1.5;
-}
-
-#nextButton {
-  height: 50px;
-  min-width: 150px;
-  font-size: 18px;
-  border-radius: 25px;
-}
-
-#nextLink {
-  text-align: center;
-  margin-bottom: 30px;
 }
