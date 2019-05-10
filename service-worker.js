@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "coroinha.html",
-    "revision": "f16a15c18e292c41b3c9ec551b944079"
+    "revision": "aa4ec2af698b23a9ec548bc4a2a53524"
   },
   {
     "url": "favicon.ico",
@@ -71,11 +71,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f2c4b129f3b6955418f34f634f2ea22f"
+    "revision": "f0da5f9c1a5aad4dffc5478e6db404a2"
   },
   {
     "url": "magnificat.html",
-    "revision": "6bf3725f3d09c03b808c713291400248"
+    "revision": "8aeb3f6fc49f4298c0594c2efc840df4"
   },
   {
     "url": "manifest.json",
@@ -87,7 +87,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oracaoajesus.html",
-    "revision": "1e1b1ce63ae315afcb50f5ccbdc2423b"
+    "revision": "14532306602493585c9095d37b384ee1"
   },
   {
     "url": "README.md",
@@ -115,7 +115,7 @@ self.__precacheManifest = [
   },
   {
     "url": "subtuum.html",
-    "revision": "b989781d286289bbe33bcccab7076c24"
+    "revision": "258763886b4b20d45688bf79df946692"
   },
   {
     "url": "workbox-config.js",
