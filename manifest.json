@@ -18,8 +18,8 @@
         "sizes": "192x192",
         "type": "image/png"
       }],
-  "start_url": "/index.html?homescreen=1",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#029eb7",
-  "theme_color": "#029eb7"
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF"
 }
