@@ -5,4 +5,4 @@ PWA - Orações Diárias do Consagrado a Santíssima Virgem
 
 - [x] Correção do cache
 - [x] Correção das cores
-- [ ] Possibilidade de implantar com VueJS
+- [ ] VueJS
